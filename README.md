@@ -21,9 +21,16 @@ This project implements a semantic book recommender system that understands the 
 
 ## Getting Started
 
+
 ### Prerequisites
 
 - Python 3.8+
 - Required libraries: `langchain`, `faiss`, `transformers`, `sentence-transformers`, `streamlit` (if applicable)
 - GPU recommended for fine-tuning and embedding generation
 
+### Installation
+
+```bash
+git clone https://github.com/yourusername/Semantic-Book-Recommender.git
+cd Semantic-Book-Recommender
+pip install -r requirements.txt
